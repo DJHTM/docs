@@ -1,4 +1,10 @@
----
+---function(user, context, callback) {
+    if (somecondition()) {
+       user.folder = 'example2';
+    }
+
+   user.folder = 'example';
+}
 title: Login
 default: true
 description: This tutorial demonstrates how to use the Auth0 Apache SDK to add authentication and authorization to your web app.
